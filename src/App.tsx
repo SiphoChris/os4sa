@@ -7,13 +7,10 @@ import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence, useScroll, useTransform } from 'motion/react';
 import { 
   BookOpen, 
-  ShieldCheck, 
-  Zap, 
   Users, 
   ChevronRight, 
   Menu, 
   X,
-  Code2,
   Github,
   ArrowUpRight,
   Plus,
@@ -23,13 +20,10 @@ import {
   Database,
   FileText,
   WifiOff,
-  BrainCircuit,
   Flag,
   Sparkles,
   Globe,
   Lock,
-  ExternalLink,
-  ChevronDown,
   Twitter,
   Mail
 } from 'lucide-react';
@@ -56,12 +50,12 @@ interface Project {
 const INITIAL_PROJECTS: Project[] = [
   {
     id: '1',
-    title: 'UniERP-SA',
+    title: 'Gradiate',
     description: 'A student lifecycle management system built specifically for South African public universities with native HEMIS reporting.',
     sector: 'Education',
     status: 'Beta',
     tags: ['React', 'Node.js', 'PostgreSQL', 'HEMIS'],
-    githubUrl: 'https://github.com/os4sa/unierp-sa'
+    githubUrl: 'https://github.com/os4sa/gradiate'
   },
   {
     id: '2',
